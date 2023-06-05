@@ -135,6 +135,11 @@ require("lazy").setup({
 	{
 		"jose-elias-alvarez/null-ls.nvim",
 		event = "VeryLazy",
+	},
+	{
+		"tpope/vim-fugitive",
+		event = "VeryLazy",
+		cmd = "Git",
 	}
 
 })
