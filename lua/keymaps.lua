@@ -32,3 +32,11 @@ map("n", "<Leader><S-Tab>", ":BufferLineCyclePrev<CR>", opts)
 map("n", "<leader>bl", ":BufferLineCloseRight<CR>", opts)
 map("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opts)
 map("n", "<leader>bc", ":BufferLinePickClose<CR>", opts)
+
+-- vim-visual-multi
+vim.cmd([[
+let g:VM_maps = {}
+let g:VM_maps["Select Cursor Down"] = '<C-S-Down>'      " start selecting down
+let g:VM_maps["Select Cursor Up"]   = '<C-S-Up>'        " start selecting up
+]])
+-- map("n", "<C-S-Down>", vim.g.VM_maps["Select Cursor Down"], opts)
