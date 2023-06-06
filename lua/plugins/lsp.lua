@@ -36,6 +36,11 @@ local M = {
             'L3MON4D3/LuaSnip',
         },
     },
+    {
+        "jose-elias-alvarez/null-ls.nvim",
+        event = "VeryLazy",
+    },
+
 }
 
 return M

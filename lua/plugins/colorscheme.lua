@@ -6,6 +6,9 @@ local M = {
     {
         "rebelot/kanagawa.nvim"
     },
+    {
+'morhetz/gruvbox',
+    },
 }
 
 return M
