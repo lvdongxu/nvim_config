@@ -27,3 +27,4 @@ require("theme")
 ----- language server protocol -----
 require("lsp.lspsetup")
 require("lsp.cmp")
+require("lsp.null-ls")

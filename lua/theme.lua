@@ -1,4 +1,4 @@
-vim.cmd.colorscheme("sonokai")
+vim.cmd.colorscheme("gruvbox")
 
 
 --vim.cmd.colorscheme("kanagawa")
