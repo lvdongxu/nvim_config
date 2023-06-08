@@ -7,6 +7,9 @@ local M = {
             vim.fn["mkdp#util#install"]()
         end,
     },
+    {
+        'dhruvasagar/vim-table-mode',
+    },
 
 
 
