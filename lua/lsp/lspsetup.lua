@@ -34,7 +34,7 @@ mason_config.setup({
     ensure_installed = {
         "lua_ls",
         "pyright",
-        -- "ltex-ls",
+        "clangd",
     },
 })
 
@@ -45,6 +45,7 @@ mason_config.setup({
 local servers = {
     lua_ls = require("lsp.config.lua"),   -- lua/lsp/config/lua.lua
     pyright = require("lsp.config.python"), -- lua/lsp/config/python.lua
+    clangd = require("lsp.config.cpp"), -- lua/lsp/config/python.lua
 }
 
 for name, config in pairs(servers) do
