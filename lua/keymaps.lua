@@ -39,4 +39,10 @@ let g:VM_maps = {}
 let g:VM_maps["Select Cursor Down"] = '<C-S-Down>'      " start selecting down
 let g:VM_maps["Select Cursor Up"]   = '<C-S-Up>'        " start selecting up
 ]])
--- map("n", "<C-S-Down>", vim.g.VM_maps["Select Cursor Down"], opts)
+
+-- Hop
+map("n", "<leader>h", ":HopPattern<CR>", opts)
+map("n", "<leader>hp", ":HopPattern<CR>", opts)
+map("n", "<leader>hc", ":HopChar1<CR>", opts)
+map("n", "<leader>hl", ":HopLine<CR>", opts)
+
