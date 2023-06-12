@@ -46,3 +46,5 @@ map("n", "<leader>hp", ":HopPattern<CR>", opts)
 map("n", "<leader>hc", ":HopChar1<CR>", opts)
 map("n", "<leader>hl", ":HopLine<CR>", opts)
 
+-- Lazygit
+map("n", "<leader>lg", ":LazyGit<CR>", opts)
