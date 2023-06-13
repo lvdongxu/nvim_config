@@ -7,8 +7,15 @@ local M = {
         "rebelot/kanagawa.nvim"
     },
     {
-'morhetz/gruvbox',
+        'morhetz/gruvbox',
     },
+    {
+        'tanvirtin/monokai.nvim',
+        config = function()
+            -- require('monokai').setup { palette = require('monokai').pro }
+            require('monokai').setup {  }
+        end
+    }
 }
 
 return M
