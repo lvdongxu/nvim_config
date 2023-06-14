@@ -71,7 +71,7 @@ local M = {
                     lualine_c = {},
                     lualine_x = {},
                 },
-                options = { theme = 'gruvbox' }
+                options = { theme = 'onedark' }
             }
 
             -- Inserts a component in lualine_c at left section
