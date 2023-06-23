@@ -79,6 +79,9 @@ vim.o.pumheight = 10
 vim.o.showtabline = 2
 -- 使用增强状态栏插件后不再需要 vim 的模式提示
 vim.o.showmode = false
+-- set space shown
+vim.opt.list = true
+vim.opt.listchars:append "space:⋅"
 
 ----- copy and highlight -----
 vim.api.nvim_create_autocmd({ "TextYankPost" }, {
